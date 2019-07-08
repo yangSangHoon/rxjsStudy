@@ -1,0 +1,39 @@
+.autocomplete{
+    position: relative;
+    width: 300px;
+}
+
+#search{
+    width: 100%;
+}
+
+#suggestLayer {
+    position: absolute;
+    top: 30px;
+    color: #666;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+#suggestLayer li {
+    border: 1px solid #bec8d8;
+    color: black;
+    list-style: none;
+}
+
+#suggestLayer li a{
+    color: black;
+}
+
+.user img {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+.user p {
+    line-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
