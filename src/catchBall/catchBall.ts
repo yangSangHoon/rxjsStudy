@@ -51,7 +51,7 @@ function eventSetting(): void {
 }
 
 function moveAll(): void {
-    ballList.forEach(ball => ball.restart());
+    ballList.forEach(ball => ball.move());
     setIntervalSubscribe();
 }
 
@@ -61,6 +61,6 @@ function stopAll(): void {
 }
 
 $timer.innerHTML = String(time);
-makeBalls(10);
+makeBalls(500);
 startTimer();
 eventSetting();
